@@ -1,0 +1,31 @@
+                   GENERACIÓN DE VIDEOS LOCALMENTE
+
+
+pip install Diffusers
+
+
+
+
+from diffusers import DiffusionPipeline
+from diffusers.utils import export_to_video
+import torch
+
+
+pipe = DiffusionPipeline.from_pretrained(
+    "damo-vilab/text-to-video-ms-1.7b",
+    torch_dtype=torch.float16
+)
+
+
+pipe = pipe.to("cuda")
+
+
+prompt = "Una alpaca caminando cerca del Lago Titicaca, estilo dibujo
+animado"
+
+
+frames = pipe(prompt, num_frames=48).frames[0]
+
+
+export_to_video(frames, "video_alpaca.mp4", fps=8)
+

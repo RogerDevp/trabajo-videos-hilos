@@ -1,0 +1,14 @@
+{
+  "titulo": "Goku: anime a realista",
+  "voz": "es-PE-AlexNeural",
+  "introduccion": "Así se vería Goku en la vida real.",
+  "cierre": "¿Cuál transformación eliges?",
+  "fases": [
+    {"basic":"base.jpeg", "realistic":"goku_base.png", "titulo":"GOKU BASE", "narracion_anime":"Goku base.", "narracion_real":"Así luce en la vida real.", "color":[255,162,56]},
+    {"basic":"ssj1.jpeg", "realistic":"goku_ssj1.png", "titulo":"SUPER SAIYAJIN", "narracion_anime":"Super Saiyajin uno.", "narracion_real":"El poder dorado, realista.", "color":[255,212,64]},
+    {"basic":"ssj2.jpeg", "realistic":"goku_ssj2.png", "titulo":"SUPER SAIYAJIN 2", "narracion_anime":"Super Saiyajin dos.", "narracion_real":"Más energía. Más realismo.", "color":[116,210,255]},
+    {"basic":"ssj3.jpeg", "realistic":"goku_ssj3.png", "titulo":"SUPER SAIYAJIN 3", "narracion_anime":"Super Saiyajin tres.", "narracion_real":"Su versión realista impone.", "color":[255,197,58]},
+    {"basic":"ssj4.jpeg", "realistic":"goku_ssj4.png", "titulo":"SUPER SAIYAJIN 4", "narracion_anime":"Super Saiyajin cuatro.", "narracion_real":"Una transformación salvaje.", "color":[255,100,105]},
+    {"basic":"ssjgod.jpeg", "realistic":"goku_dios.png", "titulo":"SUPER SAIYAJIN DIOS", "narracion_anime":"Super Saiyajin Dios.", "narracion_real":"El poder divino, realista.", "color":[255,100,60]}
+  ]
+}

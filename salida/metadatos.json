@@ -1,0 +1,543 @@
+{
+  "benchmark": {
+    "muestras_s": {
+      "secuencial": [
+        4.4193656599964015,
+        6.8989631260046735,
+        6.0392354340001475
+      ],
+      "hilos": [
+        3.5040493749984307,
+        2.9914778350066626,
+        2.9722033879952505
+      ]
+    },
+    "repeticiones": 3,
+    "T1_s": 6.0392354340001475,
+    "Tp_s": 2.9914778350066626,
+    "speedup": 2.0188133648620856,
+    "eficiencia": 0.5047033412155214
+  },
+  "preparacion_s": 2.6504583249916323,
+  "voz_s": 0.004690828005550429,
+  "render_s": 53.164268113992875,
+  "tiempo_total_s": 85.09058936701331,
+  "workers": 4,
+  "tts": "edge",
+  "voz": "es-PE-AlexNeural",
+  "musica": [
+    "fondo.mp3",
+    "fondo_original.wav"
+  ],
+  "duracion_s": 42.03333333333333,
+  "resolucion": "1080x1920",
+  "fps": 30,
+  "escenas": [
+    {
+      "title": "GOKU",
+      "subtitle": "DEL ANIME A LA REALIDAD",
+      "text": "Así se vería Goku en la vida real.",
+      "mode": "intro",
+      "phase": 0,
+      "phase_count": 6,
+      "start": 0.0,
+      "duration": 3.3666666666666667,
+      "frames": 101,
+      "speech_end": 3.12
+    },
+    {
+      "title": "GOKU BASE",
+      "subtitle": "ANIME",
+      "text": "Goku base.",
+      "mode": "anime",
+      "phase": 0,
+      "phase_count": 6,
+      "start": 3.3666666666666667,
+      "duration": 2.1333333333333333,
+      "frames": 64,
+      "speech_end": 1.896
+    },
+    {
+      "title": "GOKU BASE",
+      "subtitle": "REALISTA",
+      "text": "Así luce en la vida real.",
+      "mode": "real",
+      "phase": 0,
+      "phase_count": 6,
+      "start": 5.5,
+      "duration": 2.8666666666666667,
+      "frames": 86,
+      "speech_end": 2.64
+    },
+    {
+      "title": "SUPER SAIYAJIN",
+      "subtitle": "ANIME",
+      "text": "Super Saiyajin uno.",
+      "mode": "anime",
+      "phase": 1,
+      "phase_count": 6,
+      "start": 8.366666666666667,
+      "duration": 2.7666666666666666,
+      "frames": 83,
+      "speech_end": 2.544
+    },
+    {
+      "title": "SUPER SAIYAJIN",
+      "subtitle": "REALISTA",
+      "text": "El poder dorado, realista.",
+      "mode": "real",
+      "phase": 1,
+      "phase_count": 6,
+      "start": 11.133333333333333,
+      "duration": 3.2,
+      "frames": 96,
+      "speech_end": 2.952
+    },
+    {
+      "title": "SUPER SAIYAJIN 2",
+      "subtitle": "ANIME",
+      "text": "Super Saiyajin dos.",
+      "mode": "anime",
+      "phase": 2,
+      "phase_count": 6,
+      "start": 14.333333333333334,
+      "duration": 2.9,
+      "frames": 87,
+      "speech_end": 2.664
+    },
+    {
+      "title": "SUPER SAIYAJIN 2",
+      "subtitle": "REALISTA",
+      "text": "Más energía. Más realismo.",
+      "mode": "real",
+      "phase": 2,
+      "phase_count": 6,
+      "start": 17.233333333333334,
+      "duration": 4.066666666666666,
+      "frames": 122,
+      "speech_end": 3.8160000000000003
+    },
+    {
+      "title": "SUPER SAIYAJIN 3",
+      "subtitle": "ANIME",
+      "text": "Super Saiyajin tres.",
+      "mode": "anime",
+      "phase": 3,
+      "phase_count": 6,
+      "start": 21.3,
+      "duration": 2.933333333333333,
+      "frames": 88,
+      "speech_end": 2.712
+    },
+    {
+      "title": "SUPER SAIYAJIN 3",
+      "subtitle": "REALISTA",
+      "text": "Su versión realista impone.",
+      "mode": "real",
+      "phase": 3,
+      "phase_count": 6,
+      "start": 24.233333333333334,
+      "duration": 2.933333333333333,
+      "frames": 88,
+      "speech_end": 2.712
+    },
+    {
+      "title": "SUPER SAIYAJIN 4",
+      "subtitle": "ANIME",
+      "text": "Super Saiyajin cuatro.",
+      "mode": "anime",
+      "phase": 4,
+      "phase_count": 6,
+      "start": 27.166666666666668,
+      "duration": 2.8666666666666667,
+      "frames": 86,
+      "speech_end": 2.616
+    },
+    {
+      "title": "SUPER SAIYAJIN 4",
+      "subtitle": "REALISTA",
+      "text": "Una transformación salvaje.",
+      "mode": "real",
+      "phase": 4,
+      "phase_count": 6,
+      "start": 30.033333333333335,
+      "duration": 2.933333333333333,
+      "frames": 88,
+      "speech_end": 2.712
+    },
+    {
+      "title": "SUPER SAIYAJIN DIOS",
+      "subtitle": "ANIME",
+      "text": "Super Saiyajin Dios.",
+      "mode": "anime",
+      "phase": 5,
+      "phase_count": 6,
+      "start": 32.96666666666667,
+      "duration": 2.933333333333333,
+      "frames": 88,
+      "speech_end": 2.712
+    },
+    {
+      "title": "SUPER SAIYAJIN DIOS",
+      "subtitle": "REALISTA",
+      "text": "El poder divino, realista.",
+      "mode": "real",
+      "phase": 5,
+      "phase_count": 6,
+      "start": 35.9,
+      "duration": 3.2,
+      "frames": 96,
+      "speech_end": 2.952
+    },
+    {
+      "title": "¿CUÁL ELIGES?",
+      "subtitle": "ANIME  /  REALISTA",
+      "text": "¿Cuál transformación eliges?",
+      "mode": "outro",
+      "phase": 5,
+      "phase_count": 6,
+      "start": 39.1,
+      "duration": 2.933333333333333,
+      "frames": 88,
+      "speech_end": 2.712
+    }
+  ],
+  "eventos_render": [
+    {
+      "index": 0,
+      "archivo": "000.mp4",
+      "hilo": "render_0",
+      "inicio_s": 0.00037942599738016725,
+      "fin_s": 28.36197318599443,
+      "duracion_s": 28.36159375999705,
+      "frames": 101
+    },
+    {
+      "index": 1,
+      "archivo": "001.mp4",
+      "hilo": "render_1",
+      "inicio_s": 0.0008916340011637658,
+      "fin_s": 7.369019646997913,
+      "duracion_s": 7.368128012996749,
+      "frames": 64
+    },
+    {
+      "index": 2,
+      "archivo": "002.mp4",
+      "hilo": "render_2",
+      "inicio_s": 0.0016540869983145967,
+      "fin_s": 12.09558835599455,
+      "duracion_s": 12.093934268996236,
+      "frames": 86
+    },
+    {
+      "index": 3,
+      "archivo": "003.mp4",
+      "hilo": "render_3",
+      "inicio_s": 0.00218393599789124,
+      "fin_s": 8.647770950003178,
+      "duracion_s": 8.645587014005287,
+      "frames": 83
+    },
+    {
+      "index": 4,
+      "archivo": "004.mp4",
+      "hilo": "render_1",
+      "inicio_s": 7.369132840001839,
+      "fin_s": 20.179434573001345,
+      "duracion_s": 12.810301732999505,
+      "frames": 96
+    },
+    {
+      "index": 5,
+      "archivo": "005.mp4",
+      "hilo": "render_3",
+      "inicio_s": 8.647840464996989,
+      "fin_s": 17.708291143004317,
+      "duracion_s": 9.060450678007328,
+      "frames": 87
+    },
+    {
+      "index": 6,
+      "archivo": "006.mp4",
+      "hilo": "render_2",
+      "inicio_s": 12.095681698003318,
+      "fin_s": 29.65486857999349,
+      "duracion_s": 17.559186881990172,
+      "frames": 122
+    },
+    {
+      "index": 7,
+      "archivo": "007.mp4",
+      "hilo": "render_3",
+      "inicio_s": 17.708421375005855,
+      "fin_s": 27.731872200994985,
+      "duracion_s": 10.02345082598913,
+      "frames": 88
+    },
+    {
+      "index": 8,
+      "archivo": "008.mp4",
+      "hilo": "render_1",
+      "inicio_s": 20.17951367200294,
+      "fin_s": 32.92747489300382,
+      "duracion_s": 12.747961221000878,
+      "frames": 88
+    },
+    {
+      "index": 9,
+      "archivo": "009.mp4",
+      "hilo": "render_3",
+      "inicio_s": 27.731986187995062,
+      "fin_s": 36.0423133430013,
+      "duracion_s": 8.310327155006235,
+      "frames": 86
+    },
+    {
+      "index": 10,
+      "archivo": "010.mp4",
+      "hilo": "render_0",
+      "inicio_s": 28.362104523999733,
+      "fin_s": 39.988455334998434,
+      "duracion_s": 11.626350810998701,
+      "frames": 88
+    },
+    {
+      "index": 11,
+      "archivo": "011.mp4",
+      "hilo": "render_2",
+      "inicio_s": 29.654982192005264,
+      "fin_s": 37.80121404600504,
+      "duracion_s": 8.14623185399978,
+      "frames": 88
+    },
+    {
+      "index": 12,
+      "archivo": "012.mp4",
+      "hilo": "render_1",
+      "inicio_s": 32.92794598099135,
+      "fin_s": 44.94297625499894,
+      "duracion_s": 12.015030274007586,
+      "frames": 96
+    },
+    {
+      "index": 13,
+      "archivo": "013.mp4",
+      "hilo": "render_3",
+      "inicio_s": 36.042437116993824,
+      "fin_s": 53.16370221300167,
+      "duracion_s": 17.121265096007846,
+      "frames": 88
+    }
+  ],
+  "max_tareas_simultaneas": 4,
+  "youtube": "PENDIENTE: añadir enlace de YouTube",
+  "video": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "19368960/645617",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 645617,
+        "duration": "42.032357",
+        "bit_rate": "3342236",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1261",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "24000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1008800,
+        "duration": "42.033333",
+        "bit_rate": "114520",
+        "nb_frames": "987",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/roger/Documents/UNAP/COMPUTACION PARALELA/trabajo_videos_python/salida/goku_narrado.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "42.033333",
+      "size": "18196690",
+      "bit_rate": "3463287",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "fuentes": [
+    {
+      "basic": "base.jpeg",
+      "realistic": "goku_base.png",
+      "titulo": "GOKU BASE",
+      "narracion_anime": "Goku base.",
+      "narracion_real": "Así luce en la vida real.",
+      "color": [
+        255,
+        162,
+        56
+      ]
+    },
+    {
+      "basic": "ssj1.jpeg",
+      "realistic": "goku_ssj1.png",
+      "titulo": "SUPER SAIYAJIN",
+      "narracion_anime": "Super Saiyajin uno.",
+      "narracion_real": "El poder dorado, realista.",
+      "color": [
+        255,
+        212,
+        64
+      ]
+    },
+    {
+      "basic": "ssj2.jpeg",
+      "realistic": "goku_ssj2.png",
+      "titulo": "SUPER SAIYAJIN 2",
+      "narracion_anime": "Super Saiyajin dos.",
+      "narracion_real": "Más energía. Más realismo.",
+      "color": [
+        116,
+        210,
+        255
+      ]
+    },
+    {
+      "basic": "ssj3.jpeg",
+      "realistic": "goku_ssj3.png",
+      "titulo": "SUPER SAIYAJIN 3",
+      "narracion_anime": "Super Saiyajin tres.",
+      "narracion_real": "Su versión realista impone.",
+      "color": [
+        255,
+        197,
+        58
+      ]
+    },
+    {
+      "basic": "ssj4.jpeg",
+      "realistic": "goku_ssj4.png",
+      "titulo": "SUPER SAIYAJIN 4",
+      "narracion_anime": "Super Saiyajin cuatro.",
+      "narracion_real": "Una transformación salvaje.",
+      "color": [
+        255,
+        100,
+        105
+      ]
+    },
+    {
+      "basic": "ssjgod.jpeg",
+      "realistic": "goku_dios.png",
+      "titulo": "SUPER SAIYAJIN DIOS",
+      "narracion_anime": "Super Saiyajin Dios.",
+      "narracion_real": "El poder divino, realista.",
+      "color": [
+        255,
+        100,
+        60
+      ]
+    }
+  ]
+}

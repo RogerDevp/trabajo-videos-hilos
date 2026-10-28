@@ -1,0 +1,14 @@
+VERIFICACIÓN DE ENTREGA VERTICAL
+
+Siete pruebas unittest aprobadas.
+Decodificación completa del MP4 con FFmpeg sin errores.
+1080x1920, 9:16, 30 FPS; H.264 y AAC.
+Duración: 42.033 s; diferencia de pistas inferior a un fotograma.
+Secuencia comprobada: intro, seis pares anime/realista, cierre.
+Recolección de segmentos en orden: 0 a 13.
+Máximo de tareas simultáneas observado: 4.
+Benchmark preparación (medianas): T1=6.039 s; Tp=2.991 s.
+La aceleración del render completo no fue medida.
+Voz Edge TTS es-PE-AlexNeural y fondo_original.wav.
+Informe con código, tiempos reales, gráfico de trabajadores y seis capturas del MP4.
+Pendiente del usuario: datos personales y enlace de YouTube.
